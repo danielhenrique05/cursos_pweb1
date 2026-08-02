@@ -13,7 +13,7 @@ import jakarta.persistence.OneToMany;
 @Entity
 public class Instrutor {
 
-   @Id
+  @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
